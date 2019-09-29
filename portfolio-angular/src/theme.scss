@@ -1,0 +1,19 @@
+@import '~@angular/material/theming';
+@include mat-core();
+
+// define the theme
+$portfolio-primary : mat-palette($mat-amber, 800);
+$portfolio-accent : mat-palette($mat-light-green, 100);
+$portfolio-warn : mat-palette($mat-deep-orange, 300);
+$portfolio-typo : mat-typography-config(
+$font-family: 'Overpass'
+);
+
+// create the theme object (a sass map containing all of the palettes
+$portfolio-theme: mat-light-theme($portfolio-primary, $portfolio-accent, $portfolio-warn);
+
+// include theme styles for core and each component used in app
+@include angular-material-theme($portfolio-theme);
+@include angular-material-typography($portfolio-typo);
+
+

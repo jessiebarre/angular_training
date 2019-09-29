@@ -1,0 +1,16 @@
+@import "./assets/materialize/css/materialize.min.css";
+
+* {
+  font-family: 'Rubik', sans-serif;
+}
+
+h3 {
+  font-size: 4.5vw;
+  font-weight: lighter;
+  margin-top: 100px;
+}
+
+.quote {
+  font-size: 3vw;
+  font-family: 'Give You Glory', cursive;
+}

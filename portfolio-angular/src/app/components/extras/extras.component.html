@@ -1,0 +1,65 @@
+<section fxLayout="column" fxFlexAlign="stretch">
+  <div fxFlexAlign="center">
+    <h3>Extras</h3>
+  </div>
+
+  <mat-tab-group>
+    <mat-tab>
+      <ng-template mat-tab-label>
+        <span style="color: white">Musique</span>
+      </ng-template>
+      <div fxLayout="row" fxLayoutAlign="space-around center">
+        <mat-card>
+         <mat-card-title>
+           Chanson du moment
+          </mat-card-title>
+          <mat-card-subtitle>Fink - Looking Too Closely</mat-card-subtitle>
+          <mat-card-content>
+            <div [innerHTML]="yt1_iframe_html">
+            </div>
+          </mat-card-content>
+        </mat-card>
+        <mat-card>
+          <mat-card-title>
+            Album du moment
+          </mat-card-title>
+          <mat-card-subtitle>Local Natives - Violet Street</mat-card-subtitle>
+          <img mat-card-image src=" http://images.music-story.com/img/album_L/local-natives-violet-street.jpg" alt="Local Natives - Violet Street">
+        </mat-card>
+      </div>
+    </mat-tab>
+
+      <mat-tab>
+        <ng-template mat-tab-label>
+          <span style="color: white">Lectures</span>
+        </ng-template>
+      <ul>
+        <li>Polar du moment</li>
+        <li>Auteur du moment</li>
+        <li>Sciences humaines du moment</li>
+      </ul>
+    </mat-tab>
+
+    <mat-tab>
+      <ng-template mat-tab-label>
+        <span style="color: white">Ciné/séries</span>
+      </ng-template>
+      <ul>
+        <li>Dernier film au ciné</li>
+        <li>Dernier film Internet</li>
+        <li>Série en cours</li>
+      </ul>
+    </mat-tab>
+    <mat-tab>
+      <ng-template mat-tab-label>
+        <span style="color: white">Motivation</span>
+      </ng-template>
+      <ul>
+        <li>La vidéo qui fait avancer</li>
+        <li>Réveil matin</li>
+        <li>Chanson motivation</li>
+      </ul>
+    </mat-tab>
+  </mat-tab-group>
+
+</section>

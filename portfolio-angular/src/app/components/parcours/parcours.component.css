@@ -1,0 +1,27 @@
+section {
+  height: 100vh;
+  width: 100%;
+  background-image:  linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)),
+  url("~src/assets/ball-shaped-3057033_1280.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+h5 {
+  font-weight: 300;
+  font-size: 3.5vw;
+  margin-top: 5%;
+}
+
+h5:hover, h5:active {
+  cursor: pointer;
+  background-color: #FF8E01;
+  color: #454545;
+}
+
+
+
+
+

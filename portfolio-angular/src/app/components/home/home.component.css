@@ -1,0 +1,27 @@
+section {
+  height: 100%;
+  width: 100%;
+  background-image:  linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+  url("~src/assets/light-681540_1280.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  padding-top: 100px;
+}
+
+.job {
+  font-size: 4vw;
+  font-weight: lighter;
+}
+
+.quote {
+  padding: 8%;
+}
+
+@media (max-width: 1024px) {
+  section {
+    height: 100vh;
+  }
+}
+

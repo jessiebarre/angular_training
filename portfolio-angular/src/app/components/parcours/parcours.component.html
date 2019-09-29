@@ -1,0 +1,17 @@
+<section fxLayoutAlign.lt-lg="space-evenly center" fxLayout.lt-lg="column">
+  <div fxLayout="column">
+    <div fxFlexAlign="center">
+      <h3>Mon parcours</h3>
+    </div>
+    <div fxFlexAlign="center">
+      <p class="quote">"Rome mène à tous les chemins"</p>
+    </div>
+  </div>
+
+  <div fxLayout="row" fxLayoutAlign="space-evenly" class="elements" fxLayoutAlign.lt-lg="center center" fxLayout.lt-lg="column">
+    <h5 (click)="openDialogHist()">Histoire</h5>
+    <h5 (click)="openDialogPedago()">Pédagogie</h5>
+    <h5 (click)="openDialogComm()">Communication</h5>
+    <h5 (click)="openDialogDev()">Développement</h5>
+  </div>
+</section>
